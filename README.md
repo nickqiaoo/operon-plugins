@@ -10,11 +10,15 @@ Plugin marketplace curated for [operon](https://github.com/nickqiaoo). Same layo
 | Firecrawl | `https://mcp.firecrawl.dev/v2/mcp-oauth` | OAuth (dynamic client registration) |
 | Grafana Cloud | `https://mcp.grafana.com/mcp` | OAuth (dynamic client registration) |
 | Interactive Brokers | `https://api.ibkr.com/v1/api/mcp-public` | OAuth (dynamic client registration) |
+| Longbridge | `https://mcp.longbridge.com` | OAuth (dynamic client registration) |
 
 All servers are hosted by their vendors; this repo only holds the manifests, skills and logos.
 Firecrawl's skills are copied unchanged from [`firecrawl/skills`](https://github.com/firecrawl/skills)
 (`skills/core` + `skills/build`, the same set its own Codex plugin ships; ISC licensed — see
-`plugins/firecrawl/LICENSE`). The upstream commit is recorded in the plugin manifest's `upstream` field.
+`plugins/firecrawl/LICENSE`). Longbridge's plugin is copied unchanged from
+[`longbridge/skills`](https://github.com/longbridge/skills) (MIT — see `plugins/longbridge/LICENSE`),
+with `oauth_resource` added to its `.mcp.json`. Each copied plugin records its upstream commit in
+the manifest's `upstream` field.
 Logos and trademarks belong to their respective owners.
 
 ## Adding a plugin
