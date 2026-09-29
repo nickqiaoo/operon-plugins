@@ -1,0 +1,9 @@
+{
+  "name": "operon-curated",
+  "interface": { "displayName": "Operon" },
+  "plugins": [
+    { "name": "firecrawl", "source": { "source": "local", "path": "./plugins/firecrawl" }, "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" }, "category": "Research" },
+    { "name": "grafana-cloud", "source": { "source": "local", "path": "./plugins/grafana-cloud" }, "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" }, "category": "Developer Tools" },
+    { "name": "ibkr", "source": { "source": "local", "path": "./plugins/ibkr" }, "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" }, "category": "Finance" }
+  ]
+}

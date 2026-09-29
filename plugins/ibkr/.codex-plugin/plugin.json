@@ -1,0 +1,38 @@
+{
+  "name": "ibkr",
+  "version": "0.1.0",
+  "description": "Review your Interactive Brokers portfolio and draft trade instructions.",
+  "author": {
+    "name": "Operon",
+    "url": "https://github.com/nickqiaoo/operon-plugins"
+  },
+  "homepage": "https://www.interactivebrokers.com/en/trading/ai-integrations.php",
+  "repository": "https://github.com/nickqiaoo/operon-plugins",
+  "license": "MIT",
+  "keywords": [
+    "ibkr",
+    "interactive brokers",
+    "portfolio",
+    "trading",
+    "finance"
+  ],
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Interactive Brokers",
+    "shortDescription": "Analyze positions, balances, P&L and risk",
+    "longDescription": "Connect IBKR's official hosted MCP server to analyze positions, balances, P&L and risk, research instruments, and draft trade instructions. Orders are never placed automatically — you confirm them in IBKR.",
+    "developerName": "Interactive Brokers",
+    "category": "Finance",
+    "capabilities": [
+      "Interactive"
+    ],
+    "websiteURL": "https://www.interactivebrokers.com/",
+    "privacyPolicyURL": "https://www.interactivebrokers.com/en/general/privacy-policy.php",
+    "defaultPrompt": [
+      "Summarize my portfolio's P&L and biggest risks today"
+    ],
+    "logo": "./assets/logo.png",
+    "screenshots": [],
+    "brandColor": "#D81222"
+  }
+}

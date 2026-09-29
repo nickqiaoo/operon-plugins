@@ -1,0 +1,40 @@
+{
+  "name": "grafana-cloud",
+  "version": "0.1.0",
+  "description": "Query metrics, logs, traces and dashboards in Grafana Cloud.",
+  "author": {
+    "name": "Operon",
+    "url": "https://github.com/nickqiaoo/operon-plugins"
+  },
+  "homepage": "https://grafana.com/docs/grafana-cloud/ai-tools/mcp-servers/cloud-mcp/",
+  "repository": "https://github.com/nickqiaoo/operon-plugins",
+  "license": "MIT",
+  "keywords": [
+    "grafana",
+    "observability",
+    "metrics",
+    "logs",
+    "traces"
+  ],
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Grafana Cloud",
+    "shortDescription": "Query metrics, logs and dashboards",
+    "longDescription": "Connect Grafana Cloud's hosted MCP server to search dashboards, query Prometheus metrics, Loki logs and Tempo traces, and investigate incidents across your Grafana Cloud stack.",
+    "developerName": "Grafana Labs",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://grafana.com/",
+    "privacyPolicyURL": "https://grafana.com/legal/privacy-policy/",
+    "termsOfServiceURL": "https://grafana.com/legal/terms/",
+    "defaultPrompt": [
+      "Why did error rates spike in the last hour?"
+    ],
+    "logo": "./assets/logo.png",
+    "screenshots": [],
+    "brandColor": "#F46800"
+  }
+}

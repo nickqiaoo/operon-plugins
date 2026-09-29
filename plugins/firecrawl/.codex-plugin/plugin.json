@@ -1,0 +1,51 @@
+{
+  "name": "firecrawl",
+  "version": "0.1.0",
+  "description": "Search, scrape, crawl and interact with the web using Firecrawl.",
+  "author": {
+    "name": "Firecrawl",
+    "url": "https://www.firecrawl.dev"
+  },
+  "homepage": "https://www.firecrawl.dev/",
+  "repository": "https://github.com/firecrawl/skills",
+  "license": "ISC",
+  "keywords": [
+    "firecrawl",
+    "scraping",
+    "search",
+    "research"
+  ],
+  "skills": [
+    "./skills/core/",
+    "./skills/build/"
+  ],
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Firecrawl",
+    "shortDescription": "Search the web and scrape pages to markdown",
+    "longDescription": "Firecrawl's official skills (the Firecrawl CLI for search, scrape, map, crawl, interact and more, plus guides for building Firecrawl into apps) together with Firecrawl's hosted MCP server.",
+    "developerName": "Firecrawl",
+    "category": "Research",
+    "capabilities": [
+      "Interactive"
+    ],
+    "websiteURL": "https://www.firecrawl.dev/",
+    "privacyPolicyURL": "https://www.firecrawl.dev/privacy-policy",
+    "termsOfServiceURL": "https://www.firecrawl.dev/terms-of-service",
+    "defaultPrompt": [
+      "Scrape this page and summarize it",
+      "Search the web for recent coverage of this topic"
+    ],
+    "logo": "./assets/logo.png",
+    "screenshots": [],
+    "brandColor": "#FA5D19"
+  },
+  "upstream": {
+    "repository": "https://github.com/firecrawl/skills",
+    "commit": "3a410054eb2a4bbb1545d0fd88d4cb282f64624f",
+    "paths": [
+      "skills/core",
+      "skills/build"
+    ]
+  }
+}
